@@ -15,7 +15,7 @@ Utiliza **React** o **VueJS** para implementar la siguiente maqueta. Solo se req
 
 Utilice este archivo Figma para ver los estados de los botones, los colores y el diseño responsivo.  Debe asegurarse de completar la prueba para imitar el diseño como se ve.
 
-> [Archivo Figma] (https://www.figma.com/file/2FkX7OHtR2xTxa78Vee6L4/%F0%9F%8C%8E-Koltin-Blog%2C-Test?node-id=118%3A1909)
+> [Archivo Figma](https://www.figma.com/file/2FkX7OHtR2xTxa78Vee6L4/%F0%9F%8C%8E-Koltin-Blog%2C-Test?node-id=118%3A1909)
 
 La página de **Post** individual se deja para que el dev la diseñe y desarrolle.
 
