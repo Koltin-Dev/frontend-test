@@ -1,5 +1,7 @@
 # Koltin - Prueba de técnica desarrollador frontend
 
+El tiempo de entrega para la prueba es de **2 días**
+
 Asegúrese de leer **todo** este documento con atención y siga las directrices que contiene.
 
 Los aspectos que se evaluarán en la prueba son los siguientes.
@@ -61,7 +63,7 @@ Agregar los siguientes parametros en la peticiones **GET**:
 
 > ¿Dónde debo enviar el resultado cuando haya terminado?
 
-Haz un fork de este repo y envíanos un pull request cuando creas que has terminado. No hay una fecha límite para esta tarea a menos que se le indique  lo contrario.
+Haz un fork de este repo y envíanos un pull request cuando creas que has terminado.
 
 > ¿Y si tengo una pregunta?
 
