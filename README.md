@@ -31,10 +31,7 @@ Para listar los Blogs tienes que usar los access point de la API
 | Metodo | Url    | Código | Respuesta   |
 |--------|--------|--------|-------------|
 | GET    | /blogs | 200    | Array<Blog> |
-| GET    |        |        |             |
-| POST   |        |        |             |
-| PUT    |        |        |             |
-|        |        |        |             |
+| GET    | /blogs/:id|200  |Blog             |
 
 ### PAGINATION
 
