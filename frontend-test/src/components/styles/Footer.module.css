@@ -1,0 +1,48 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerDown {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #E4E5E9;
+  border-bottom: 1px solid #c8c7c7
+}
+
+.leftImages img {
+  width: 25px;
+  height: 20px;
+  margin: 50px 20px;
+}
+
+.Category ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 20px 0;
+}
+
+.Category li {
+  list-style-type: none;
+  padding: 5px;
+  font-size: medium;
+}
+
+.Category a {
+  text-decoration: none;
+  color: #2B2C34;
+}
+
+.koltin {
+  display: flex;
+  justify-content: space-around;
+  font-size: small;
+  margin-top: 20px;
+}
+
+.koltin img{
+  width: 13px;
+  height:12px;
+}

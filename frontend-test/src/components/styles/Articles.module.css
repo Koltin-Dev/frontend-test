@@ -1,0 +1,65 @@
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+  }
+  
+  .cardSection {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 425px;
+    background-color: white;
+    box-shadow: 0 40px 40px rgb(226, 226, 226);
+    border-radius: 12px;
+    gap: 10px;
+  }
+  
+  .thumbNail {
+    width: 260px;
+    height: 198px;
+    margin: 20px 10px 0 10px;
+    align-self: center;
+    border-radius: 13px;
+  }
+  
+  .cardSection h6 {
+    margin: 13px 0 0 22px ;
+    
+  }
+  
+  .author{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .avatar {
+    width: 57px;
+    height: 57px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 30px 0 0 20px;
+    align-self:flex-start;
+  }
+
+  .authorContainer{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .author {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 40px 0 0 15px;
+  }
+  .author p {
+    font-size: 10px;
+    color: #2B2C34;
+    margin: 2px 0 0 15px;
+  }
+
+  .name{
+    font-weight: bold;
+  }
+  

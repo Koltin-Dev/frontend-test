@@ -1,0 +1,48 @@
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+}
+
+.subscribe div {
+  width: 120px;
+  height: 128px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.subscribe h2 {
+  margin-top: 20px;
+}
+
+.subscribe p {
+  color: #C0C0C0;
+  font-size: 17px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+}
+
+.search input {
+  border: transparent;
+  color: #C0C0C0;
+  width: 380px;
+  height: 50px;
+  margin: 10px 10px 50px 2px;
+}
+
+.search ::placeholder {
+  color: #C0C0C0;
+}
+
+.search button {
+  width: 100px;
+  height: 50px;
+  margin: 10px 10px 50px 2px;
+}
