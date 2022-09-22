@@ -1,11 +1,10 @@
 import React from 'react';
 
 import styles from './styles/BrowseCategory.module.css';
-import css1 from './assets/css1.png';
+import css1 from './assets/css1.PNG';
 import tailwind from './assets/tailwind.png';
 import vue from './assets/vue.png';
 import react from './assets/react.png';
-
 
 const BrowseCategory = () => {
   return (

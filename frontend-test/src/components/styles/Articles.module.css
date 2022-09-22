@@ -1,4 +1,4 @@
-  .container {
+   .container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -6,7 +6,6 @@
   }
   
   .cardSection {
-    display: flex;
     flex-direction: column;
     width: 300px;
     height: 425px;
@@ -14,12 +13,13 @@
     box-shadow: 0 40px 40px rgb(226, 226, 226);
     border-radius: 12px;
     gap: 10px;
+    margin: 100px 0 100px;
   }
   
   .thumbNail {
     width: 260px;
     height: 198px;
-    margin: 20px 10px 0 10px;
+    margin: 0px 10px 0 10px;
     align-self: center;
     border-radius: 13px;
   }
@@ -63,3 +63,10 @@
     font-weight: bold;
   }
   
+  .category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 180px 50px 180px;
+   
+  }
