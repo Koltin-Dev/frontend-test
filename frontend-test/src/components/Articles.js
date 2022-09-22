@@ -12,7 +12,7 @@ const Articles = () => {
       .then((response) => response.json())
       .then((FetchArticles) => { 
         console.log(FetchArticles)
-        setArticles(articles.concat(FetchArticles)); 
+        setArticles(FetchArticles); 
       });
   };
 

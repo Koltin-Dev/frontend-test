@@ -4,7 +4,7 @@ import styles from './styles/Articles.module.css';
 import Modal from './Modal';
 
 const Cards = ({ item }) => {
-  const [setIdCard] = useState('');
+  const [idCard, setIdCard] = useState('');
   const [isOpenModal, setIsOpenModal] = useState(false);
 
   const openModal = (item) => {
@@ -13,10 +13,8 @@ const Cards = ({ item }) => {
   }
 
   return (
-
-    <div key={item.id} >
-      <section className={styles.cardSection}  >
-        <Modal isOpenModal={isOpenModal} item={item} setIsOpenModal={setIsOpenModal} />
+     <div key={item.id} >
+      <section className={styles.cardSection} onClick={() => openModal(item.id)}>
         <img src={item.thumbnail} alt="nail" className={styles.thumbNail} />
         <h6>{item.title}</h6>
         <section className={styles.authorContainer}>
@@ -26,15 +24,21 @@ const Cards = ({ item }) => {
             <p>{item.createdAt}</p>
           </section>
         </section>
-        <button onClick={() => openModal(item)}>x</button>
       </section>
       <div>
         {isOpenModal &&
-          <Modal onClose={() => setIsOpenModal(false)} open={isOpenModal} item={item}
+          <Modal onClose={() => setIsOpenModal(false)} open={isOpenModal} item={item} 
           />
         }
       </div>
-    </div>
+
+      <div className='modalContainer' >
+        <div >
+        <Modal isOpenModal={isOpenModal} item={item} setIsOpenModal={setIsOpenModal} />
+          
+        </div>
+      </div>
+   </div>
   )
 }
 

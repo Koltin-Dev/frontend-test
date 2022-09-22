@@ -1,36 +1,21 @@
-   .container {
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: space-evenly;
-    background-color: white;
-  }
-.container div {
-flex-direction: row;
-}
+
   .cardSection {
-    /* display: flex; */
-    /* flex-direction: row; */
-    width: 300px;
-    height: 425px;
     background-color: white;
     box-shadow: 0 40px 40px rgb(226, 226, 226);
     border-radius: 12px;
-    gap: 10px;
-    margin: 100px 0 100px;
-    cursor: pointer;
+    cursor: pointer;  
   }
   
   .thumbNail {
     width: 260px;
     height: 198px;
-    margin: 0px 10px 0 10px;
+    margin: 20px 20px 20px 20px;
     align-self: center;
     border-radius: 13px;
   }
   
   .cardSection h6 {
-    margin: 13px 0 0 22px ;
-    
+    margin: 20px 20px 20px 20px ;
   }
   
   .author{
@@ -43,7 +28,7 @@ flex-direction: row;
     height: 57px;
     background-size: cover;
     border-radius: 50%;
-    margin: 30px 0 0 20px;
+    margin: 5px 0 0 20px;
     align-self:flex-start;
   }
 
@@ -55,22 +40,22 @@ flex-direction: row;
   .author {
     flex-direction: column;
     align-items: flex-start;
-    margin: 40px 0 0 15px;
+    margin:  20px 20px 20px 20px;
   }
   .author p {
     font-size: 10px;
     color: #2B2C34;
-    margin: 2px 0 0 15px;
+    margin: 2px 0 0 5px;
   }
 
   .name{
     font-weight: bold;
   }
-  
-  .category {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 50px 180px 50px 180px;
-   
+
+  .onClose{
+   display: flex;
+   justify-content: center;
+   background-color: #C0C0C0;
+   font-weight: bolder;
   }
+
