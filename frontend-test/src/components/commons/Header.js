@@ -15,7 +15,7 @@ const Header = () => {
           <li><a href="Home">Home</a></li>
           <li><a href="Category">Category</a></li>
           <li><a href="AboutMe">About Me</a></li>
-          <img src={magnifyingGlass} type="search" class="device" />
+          <img src={magnifyingGlass} type="search" alt="device" />
           <button class="btn " type="submit">Search</button>
         </ul>
       </section>

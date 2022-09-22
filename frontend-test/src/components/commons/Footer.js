@@ -1,26 +1,15 @@
 import React from 'react';
 
 import styles from '../styles/Footer.module.css';
-import buzon from '../assets/buzon.png';
 import Medium from '../assets/Medium.png';
 import Vector from '../assets/Vector.png';
 import ig from '../assets/ig.png';
 import linki from '../assets/linki.png';
+import love from '../assets/love.png';
 
 const Footer = () => {
   return (
     <footer className={styles.footerContainer}>
-      <section className={styles.footerUp}>
-        <div>
-          <img src={buzon} type="search" alt="device" />
-        </div>
-        <h2>Subscribe For The Latest Updates</h2>
-        <p>Suscribe to newsletters and never miss the new post every week.</p>
-        <section className={styles.footerSearch}>
-          <input type="search" id="form1" class="form-control" placeholder='Enter your email here...' />
-          <button type="button" class="btn btn-dark">Subscribe</button>
-        </section>
-      </section>
       <section className={styles.footerDown}>
         <section className={styles.leftImages}>
           <img src={Medium} type="search" alt="mediun" />
@@ -65,7 +54,7 @@ const Footer = () => {
       </section>
       <section className={styles.koltin}>
         <p>© 2022 Koltin</p>
-        <p>Made with 💗 México</p>
+        <p>Made with <span><img src={love} alt='heart' /></span> México</p>
       </section>
     </footer>
   )

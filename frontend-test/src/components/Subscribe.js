@@ -1,29 +1,24 @@
 import React from 'react';
 
-import styles from './styles/Suscribe.module.css'
-import persona from './assets/persona.png';
-import narrow from './assets/narrow.png';
+import styles from './styles/Subscribe.module.css';
+import buzon from './assets/buzon.png';
 
-const Suscribe = () => {
+const Subscribe = () => {
   return (
     <>
-    <div className={styles.container}>
-    <section className={styles.subscribe}>
-        <h2>Hi, I'm ROCIO</h2>
-        <h3>Front End Dev</h3>
-        <p>On this blog I share tips and tricks, frameworks, projects, tutorials, etc. <br/>Make sure you subscribe to get the latest updates</p>
-        <section className={styles.subscribeSearch}>
+      <section className={styles.subscribe}>
+        <div>
+          <img src={buzon} type="search" alt="device" />
+        </div>
+        <h2>Subscribe For The Latest Updates</h2>
+        <p>Suscribe to newsletters and never miss the new post every week.</p>
+        <section className={styles.search}>
           <input type="search" id="form1" class="form-control" placeholder='Enter your email here...' />
           <button type="button" class="btn btn-dark">Subscribe</button>
         </section>
       </section>
-        <div className={styles.boyImage}>
-          <img src={persona} alt="img"/>
-        </div>
-    </div>
-    <div className={styles.narrow}><img src={narrow} type="button" alt="img" /></div>
     </>
   )
 }
 
-export default Suscribe
+export default Subscribe

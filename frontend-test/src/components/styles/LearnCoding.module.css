@@ -1,7 +1,10 @@
+body{
+  background-color: #EFF0F3;
+}
+
 .container {
   display: flex;
   flex-direction: row;
-  background-color: #EFF0F3;
 }
 
 .subscribe {
@@ -57,7 +60,8 @@
 }
 
 .narrow {
-  background-color: #EFF0F3;
   display: flex;
   justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
