@@ -1,0 +1,22 @@
+.navContainer{
+    background-color: #E4E5E9;
+    display:grid;
+    grid-template-columns: 45% 8% 11% 13% 2%;
+    justify-items:flex-start;
+}
+
+.navLogo{
+    color: #2B2C34;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Square Peg', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 70px;
+ }
+.navMenu{
+    color:#2B2C34;
+    font-size: 18px;
+    font-weight: bolder;  
+    font-family: 'Square Peg', cursive;
+    font-family: 'Ubuntu', sans-serif;   
+}
