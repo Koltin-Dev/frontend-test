@@ -4,7 +4,7 @@ import styles from './styles/LearnCoding.module.css';
 import persona from './assets/persona.png';
 import narrow from './assets/narrow.png';
 
-const Suscribe = () => {
+const LearnCoding = () => {
   return (
     <>
       <div className={styles.container}>
@@ -26,4 +26,4 @@ const Suscribe = () => {
   )
 }
 
-export default Suscribe
+export default LearnCoding

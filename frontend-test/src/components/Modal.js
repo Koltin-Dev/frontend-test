@@ -1,33 +1,24 @@
 import React from 'react';
 
-import styles from './styles/Articles.module.css'
+import styles from './styles/Articles.module.css';
+import CardContent from './CardContent';
 
-const Modal = ({ open, item, onClose }) => {
+const Modal = ({ isOpenModal, item, onClose }) => {
 
   const handleClose = (e) => {
-    if (e.target.className === 'modalContainer' ) {
+    if (e.target.className) {
       onClose()
     }
     return null
   }
-
-  if (open) {
+ 
+  if (isOpenModal) {
     return (
-      <div key={item.id} className='modalContainer' onClick={handleClose}>
-      <div className='modal__head'>
-      <section className={styles.cardSection} >
-        <img src={item.thumbnail} alt="nail" className={styles.thumbNail} />
-        <h6>{item.title}</h6>
-        <section className={styles.authorContainer}>
-          <img src={item.author.avatar} alt="avatar" className={styles.avatar} />
-          <section className={styles.author}>
-            <p className={styles.name}>{item.author.name}</p>
-            <p>{item.createdAt}</p>
-          </section>
-        </section>
+      <div key={item.id} className={styles.showModalContainer} onClick={handleClose}>
+      <CardContent item={item} />
+      <section>
         <span className={styles.onClose} onClick={onClose}>X</span>
       </section>
-    </div>
     </div>
     )
   }

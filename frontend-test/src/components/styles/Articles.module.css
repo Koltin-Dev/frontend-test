@@ -1,61 +1,70 @@
+.cardSection {
+  background-color: white;
+  box-shadow: 0 40px 40px rgb(226, 226, 226);
+  border-radius: 12px;
+  cursor: pointer;
+}
 
-  .cardSection {
-    background-color: white;
-    box-shadow: 0 40px 40px rgb(226, 226, 226);
-    border-radius: 12px;
-    cursor: pointer;  
-  }
-  
-  .thumbNail {
-    width: 260px;
-    height: 198px;
-    margin: 20px 20px 20px 20px;
-    align-self: center;
-    border-radius: 13px;
-  }
-  
-  .cardSection h6 {
-    margin: 20px 20px 20px 20px ;
-  }
-  
-  .author{
-    display: flex;
-    flex-direction: row;
-  }
+.thumbNail {
+  width: 260px;
+  height: 198px;
+  margin: 20px 20px 20px 20px;
+  align-self: center;
+  border-radius: 13px;
+}
 
-  .avatar {
-    width: 57px;
-    height: 57px;
-    background-size: cover;
-    border-radius: 50%;
-    margin: 5px 0 0 20px;
-    align-self:flex-start;
-  }
+.cardSection h6 {
+  margin: 20px 20px 20px 20px;
+}
 
-  .authorContainer{
-    display: flex;
-    flex-direction: row;
-  }
+.author {
+  display: flex;
+  flex-direction: row;
+}
 
-  .author {
-    flex-direction: column;
-    align-items: flex-start;
-    margin:  20px 20px 20px 20px;
-  }
-  .author p {
-    font-size: 10px;
-    color: #2B2C34;
-    margin: 2px 0 0 5px;
-  }
+.avatar {
+  width: 57px;
+  height: 57px;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 5px 0 0 20px;
+  align-items: center;
+}
 
-  .name{
-    font-weight: bold;
-  }
+.authorContainer {
+  display: flex;
+  flex-direction: row;
+}
 
-  .onClose{
-   display: flex;
-   justify-content: center;
-   background-color: #C0C0C0;
-   font-weight: bolder;
-  }
+.author {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 20px 20px 20px;
+}
 
+.author p {
+  font-size: 10px;
+  color: #2B2C34;
+  margin: 2px 0 0 5px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.onClose {
+  display: flex;
+  justify-content: center;
+  background-color: #C0C0C0;
+  font-weight: bolder;
+}
+
+.showModalContainer {
+  width: 20%;
+  height: 200px;
+  position: relative;
+  align-content: center;
+  top: 50px;
+  left: 40%;
+  cursor: pointer;
+}
