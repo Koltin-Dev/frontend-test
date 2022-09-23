@@ -30,11 +30,11 @@ p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferr
 En nuestra página web podrás disfrutar de todos los artículos actuales que traemos para ti, podrás dar click al botón 'More Article' y se mostrarán más articulos disponibles, asi como tambien darle click a la tarjeta para más información detallada.
 
 
-![pantalla1](C:\Users\rhole\Desktop\proyectos\Koltintest\Frontend-test\frontend-test\src\components\assets\Home(01))
-![pantalla2](C:\Users\rhole\Desktop\proyectos\Koltintest\Frontend-test\frontend-test\src\components\assets\BrowseCategory(02))
-![pantalla3](C:\Users\rhole\Desktop\proyectos\Koltintest\Frontend-test\frontend-test\src\components\assets\Articles(03))
-![pantalla4](C:\Users\rhole\Desktop\proyectos\Koltintest\Frontend-test\frontend-test\src\components\assets\subscribe(04))
-![pantalla5](C:\Users\rhole\Desktop\proyectos\Koltintest\Frontend-test\frontend-test\src\components\assets\Modal(05))
+![pantalla1](/frontend-test/src/components/assets/Home1.png)
+![pantalla2](/frontend-test/src/components/assets/BrowseCategory2.png)
+![pantalla3](/frontend-test/src/components/assets/Articles3.png)
+![pantalla4](/frontend-test/src/components/assets/subscribe4.png)
+![pantalla5](/frontend-test/src/components/assets/Modal5.png)
 
 
 
