@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+.category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 0 30px 0 30px;
+}
+
+.cardSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 300px;
+    height: 425px;
+    gap: 70px;
+    margin: 0px 100px 50px 250px;
+    cursor: pointer;
+}
+
+.moreArticle {
+    align-self: center;
+    margin-bottom: 60px;
+    top:20px;
+}
+
+.modalContainer {
+    /* background-color:rgba(16, 16, 16, 0.113); */
+    position:absolute;
+    width: 100%;
+    /* height: 550px; */
+    /* /* align-items: center; */
+    
+}
