@@ -1,72 +1,40 @@
-# Koltin - Prueba de técnica desarrollador frontend
-
-El tiempo de entrega para la prueba es de **2 días**
-
-Asegúrese de leer **todo** este documento con atención y siga las directrices que contiene.
-
-Los aspectos que se evaluarán en la prueba son los siguientes.
-
-* Calidad en el código.
-* Creatividad.
-* Dominio de las tecnologías que decidan utilizar.
-* Atención al detalle.
-
-## Contexto
-
-Utiliza **React** o **VueJS** para implementar la siguiente maqueta. Solo se requiere que completes las vistas de escritorio, a menos que se indique lo contrario.
-
-Utilice este archivo Figma para ver los estados de los botones, los colores y el diseño responsivo.  Debe asegurarse de completar la prueba para imitar el diseño como se ve.
-
-> [Archivo Figma](https://www.figma.com/file/2FkX7OHtR2xTxa78Vee6L4/%F0%9F%8C%8E-Koltin-Blog%2C-Test?node-id=118%3A1909)
-
-La página de **Post** individual se deja para que el dev la diseñe y desarrolle.
-
-## Requerimientos
-
-### Koltin Blog API
-
-Para listar los Blogs tienes que usar los access point de la API
-
-**Base URL**  `https://6328f6acd2c97d8c525f8f80.mockapi.io/api/v1/`
+# Koltin Blog Technology (Challenge Koltin México)
 
 
-| Metodo | Url    | Código | Respuesta   |
-|--------|--------|--------|-------------|
-| GET    | /blogs | 200    | Array<Blog> |
-| GET    | /blogs/:id|200  |Blog             |
+## Índice
 
-### PAGINATION
+* [1.Resumen del proyecto](#1-resumen-del-proyecto)
+* [2.Tecnologías](#2-tecnologías)
+* [3.Funcionalidad ](#3-prototipos)
 
-Agregar los siguientes parametros en la peticiones **GET**:
 
-* `/blogs?page=1&limit=10`
-* `/blogs?p=1&l=10`
+***
 
-### Funcionalidad
+## 1. Resumen del proyecto
+**Koltin Blog Technology** ¿Eres apasionado por la tecnología y te encanta estar al día con los nuevos avances del mundo Tech?
+ Koltin Blog Technology es una iniciativa de Koltin México con la que buscamos facilitarle la vida a nuestra comunidad geek, queremos ayudarte compartiendo artículos de interés y con actualizaciones continuas con solo un click. Con esta nueva alternativa podrás: 
+* Subscribirte y recibir notificaciones de actualizaciones tecnológicas.
+* Escoger la categoría de la tecnología que deseas investigar. 
+* Ver artículos recientes.
+* Dar click en una tarjeta para más información.
 
-- Listar los blogs paginados, 5 post por página
-- Al dar click en la imagen del listado de blog, se tiene que mostrar el contenido del post individual
+ "Koltin Blog Technology" fue desarrollada para ser implementada en desktop. A través de tu página web "Koltin" podrás seguir disfrutando de las funcionalidades que te ofrece  con la seguridad de que puedas estar al día con noticias del mundo Tech.
 
-###  Tech Stack
+## 2. Tecnologías.
+ 
+ <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer">
 
-* ReactJS, VueJS, Vanilla Javascript
-* CSS
 
-### Bonus
+## 3. Fucionalidad.
 
-* Que la maqueta sea responsiva
-* Describir en un readme como ejecutar el proyecto
-* Mostrar demo online del proyecto
-* Escribir mensajes de **commit** claros y concisos
+En nuestra página web podrás disfrutar de todos los artículos actuales que traemos para ti, podrás dar click al botón 'More Article' y se mostrarán más articulos disponibles, asi como tambien darle click a la tarjeta para más información detallada.
 
-## Q&A
 
-> ¿Dónde debo enviar el resultado cuando haya terminado?
+![pantalla1](/frontend-test/src/components/assets/Home1.png)
+![pantalla2](/frontend-test/src/components/assets/BrowseCategory2.png)
+![pantalla3](/frontend-test/src/components/assets/Articles3.png)
+![pantalla4](/frontend-test/src/components/assets/subscribe4.png)
+![pantalla5](/frontend-test/src/components/assets/modal5.png)
 
-Haz un fork de este repo y envíanos un pull request cuando creas que has terminado.
-
-> ¿Y si tengo una pregunta?
-
-Sólo tienes que crear un **Issue**  en este repositorio y te responderemos rápidamente.
 
 
