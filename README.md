@@ -18,7 +18,7 @@
 * Ver artículos recientes.
 * Dar click en una tarjeta para más información.
 
- "Koltin Blog Technology" fue desarrollada para ser implementada en desktop. A través de tu página web "Koltin" podrás seguir disfrutando de las funcionalidades que te ofrece  con la finalidad de que puedas estar al día con noticias del mundo Tech.
+ "Koltin Blog Technology" fue desarrollada para ser implementada en desktop. A través de tu página web "Koltin" podrás seguir disfrutando de las funcionalidades que te ofrece  con la seguridad de que puedas estar al día con noticias del mundo Tech.
 
 ## 2. Tecnologías.
  
