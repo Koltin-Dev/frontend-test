@@ -11,7 +11,6 @@ const Articles = () => {
     fetch(url)
       .then((response) => response.json())
       .then((FetchArticles) => { 
-        console.log(FetchArticles)
         setArticles(FetchArticles); 
       });
   };
