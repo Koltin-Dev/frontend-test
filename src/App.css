@@ -7,6 +7,8 @@
   grid-template-rows: 20% 13% 35% 20% 25% 5%;
   width: auto;
   border: 10px red solid;
+  font-family: 'Square Peg', cursive;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /*.App-logo {

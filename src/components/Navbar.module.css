@@ -3,6 +3,8 @@
     display:grid;
     grid-template-columns: 45% 8% 11% 13% 2%;
     justify-items:flex-start;
+    border: 10px solid purple;
+    height: auto;
 }
 
 .navLogo{
