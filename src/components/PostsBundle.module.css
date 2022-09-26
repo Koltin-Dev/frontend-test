@@ -1,0 +1,59 @@
+
+.blogsContainer{
+    color: #5A5A5A;
+      border: 5px solid yellow;
+    
+}
+.titleContainer{
+    display: flex;
+    justify-content: space-around;
+    color:#5A5A5A;
+    font-size: 18px;
+}
+.cardContainer{
+  display: grid;
+  grid-template-columns:20% 20% 20% 20% 20%;
+  justify-items: center;
+  border-radius: 30px;
+}
+
+.cardStyle{
+    width: 85%;
+    display: grid;
+    grid-template-rows: 45% 30% 5% 5%;
+    justify-content: space-around;
+    color: #2B2C34;
+    border: 0.01px solid gainsboro;
+    background-color: #fffffe;
+    border-radius: 10px;
+}
+.blogsImg{
+    width: 93%;
+    margin-left: 7px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.blogsTitle{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 10px;
+
+
+}
+.blogsName{
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.blogsAuthorImg{
+    width: 22%;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.blogsCreated{
+    font-size: 12px;
+    font-weight: normal;
+    margin-right: -11px; 
+}
