@@ -1,8 +1,8 @@
 import "./App.css";
 import { Navbar } from "./components/Navbar";
 import { Home } from "./components/Home";
-/*import { Category } from "./components/Portafolio";
-import { Aboutme } from "./components/About";
+import { Category } from "./components/Category";
+/*import { Aboutme } from "./components/About";
 import { Search } from "./components/Contactme";
 import { Footer } from "./components/Footer"; */
 
@@ -15,10 +15,10 @@ function App() {
       <section>
         <Home />
       </section>
-      {/* <section>
+      x<section>
         <Category />
       </section>
-      <section>
+      { /*<section>
         <Aboutme />
       </section>
       <section>
