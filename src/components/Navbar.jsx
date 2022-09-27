@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className={styles.navMenu}>Home </nav>
         <nav className={styles.navMenu}>Category</nav>
         <nav className={styles.navMenu}>About Me</nav>
-        <nav className={styles.navMenu}>Search</nav>
+        <nav className={styles.navMenu}>🔍Search</nav>
         </section>
 
     )

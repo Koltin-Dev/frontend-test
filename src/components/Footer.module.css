@@ -3,7 +3,7 @@
     color: #2B2C34;
     display: grid;
     grid-template-columns: 25% 75% ;
-    border: 10px solid ;
+    margin-top: -150px;
 }
 .footerIcons{
     width:9%;
@@ -25,4 +25,4 @@
     font-weight: normal;
     text-align:justify;
     margin-left: 55px;
-   }
+}

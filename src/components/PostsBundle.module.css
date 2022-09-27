@@ -1,14 +1,15 @@
 
 .blogsContainer{
     color: #5A5A5A;
-      border: 5px solid yellow;
+    background-color: #fffffe;
+    margin-top: -50px;
     
 }
 .titleContainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color:#5A5A5A;
-    font-size: 18px;
+    font-size: 16px;
 }
 .cardContainer{
   display: grid;
@@ -23,7 +24,7 @@
     grid-template-rows: 45% 30% 5% 5%;
     justify-content: space-around;
     color: #2B2C34;
-    border: 0.01px solid gainsboro;
+    border: 0.5px solid #E4E5E9;
     background-color: #fffffe;
     border-radius: 10px;
 }

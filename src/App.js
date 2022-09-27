@@ -5,9 +5,6 @@ import { Category } from "./components/Category";
 import { PostsBundle } from "./components/PostsBundle";
 import { Subscribe } from "./components/Subscribe";
 import { Footer } from "./components/Footer";
-/*
-import { Search } from "./components/Contactme";
- */
 
 function App() {
   return (
@@ -29,8 +26,7 @@ function App() {
       </section>
       <section>
         <Footer />
-      </section> 
-    
+      </section>
     </div>
   );
 }

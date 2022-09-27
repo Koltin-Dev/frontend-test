@@ -2,9 +2,9 @@
     display:grid;
     grid-template-rows: 35% 65%;
     background-color:#EFF0F3;
-    border: 10px solid purple;
     align-content: center;
     justify-content:center;
+    margin-top: -120px;
 }
 .subsImage{
     width: 22%;
