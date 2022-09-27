@@ -1,0 +1,23 @@
+.navContainer {
+  background-color: #fffffe;
+  display: grid;
+  grid-template-columns: 44% 10% 11% 12% 12%;
+  justify-items: flex-start;
+  margin-top: 7px;
+  height: 100vh;
+}
+
+.navLogo {
+  color: #2B2C34;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-left: 100px;
+  margin-top: 7px;
+}
+
+.navMenu {
+  color: #2B2C34;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: 8px;
+}

@@ -1,0 +1,28 @@
+.footerContainer{
+    width: 98%;
+    color: #2B2C34;
+    display: grid;
+    grid-template-columns: 25% 75% ;
+    margin-top: -150px;
+}
+.footerIcons{
+    width:9%;
+    padding-right: 25px;
+    margin-top: 25px;
+}
+.footerInfo{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    color: #2B2C34;
+    margin-top: 10px;
+}
+.footerInfo h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footerInfo p{
+    font-size: 14px;
+    font-weight: normal;
+    text-align:justify;
+    margin-left: 55px;
+}
