@@ -1,13 +1,12 @@
-# Data Lovers
+# Koltin prueba técnica desarrolador frontend
 
 ## Índice
 
 * [1. Koltin-Empresa](#1-Koltin-Empresa)
 * [2. Requisitos prueba técnica desarrollador frontend](#2-Requisitos-prueba-técnica-desarrollador-frontend)
-* [3. Diseño de la Interfaz de Usuario](#3-Diseño-de-la-Interfaz-de-Usuario)
-* [4. Testeos de usabilidad](#4-Testeos-de-usabilidad)
-* [5. Implementación de la Interfaz de Usuario (HTML/CSS/JS)](#5-Implementación-de-la-Interfaz-de-Usuario-(HTML/CSS/JS))
-* [6. Pruebas unitarias](#6-Pruebas-unitarias)
+* [3. Desarrollo de la prueba técnica](#3-Desarrollo-de-la-prueba-técnica)
+* [4. Conclusión](#4-Conclusión)
+
 
 ***
 ## 1. Koltin-Empresa
@@ -81,8 +80,8 @@ A continuación muestro el resultado final de la presente prueba
 ![Desarrollo4](src/assets/DesarrolloKoltin4.png)
 ![Desarrollo5](src/assets/DesarrolloKoltin5.png)
 
-### Conclusión
-Agradezco la oportunidad por presentar dicha prueba, fue un proyecto lleno de aprendizajes, algunos detalles quedan pendientes, pero tengan por seguro que puse mi corazón en la presente prueba técnica.
+### 4. Conclusión
+Agradezco la oportunidad por presentar dicha prueba, fue un proyecto lleno de aprendizajes.
 
 Gracias.
 
