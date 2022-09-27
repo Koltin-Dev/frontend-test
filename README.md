@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Data Lovers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Índice
 
-## Available Scripts
+* [1. Koltin-Empresa](#1-Koltin-Empresa)
+* [2. Requisitos prueba técnica desarrollador frontend](#2-Requisitos-prueba-técnica-desarrollador-frontend)
+* [3. Diseño de la Interfaz de Usuario](#3-Diseño-de-la-Interfaz-de-Usuario)
+* [4. Testeos de usabilidad](#4-Testeos-de-usabilidad)
+* [5. Implementación de la Interfaz de Usuario (HTML/CSS/JS)](#5-Implementación-de-la-Interfaz-de-Usuario-(HTML/CSS/JS))
+* [6. Pruebas unitarias](#6-Pruebas-unitarias)
 
-In the project directory, you can run:
+***
+## 1. Koltin-Empresa
 
-### `npm start`
+El presente proyecto a sido realizado para llevar a cabo una prueba técnica para la empres Koltin.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Koltin es una empresa cuya misión es : 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+"Promover un estilo de vida saludable, devolverle la dignidad a la vejez. Nosotros creemos que las personas son más que números y evaluaciones de riesgos.
+Buscamos entender más a las grandes personas y darles las herramientas para vivir una vida más completa y enriquecedora."
 
-### `npm test`
+Página web https://www.koltin.mx/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 2. Requisitos prueba técnica desarrollador frontend
 
-### `npm run build`
+Utilice este archivo Figma para ver los estados de los botones, los colores y el diseño responsivo. Debe asegurarse de completar la prueba para imitar el diseño como se ve.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Figma1](src/assets/FigmaKoltin1.png)
+![Figma2](src/assets/FigmaKoltin2.png)
+![Figma3](src/assets/FigmaKoltin3.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La página de Post individual se deja para que el dev la diseñe y desarrolle.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Koltin Blog API
+Para listar los Blogs tienes que usar los access point de la API
 
-### `npm run eject`
+Base URL https://6328f6acd2c97d8c525f8f80.mockapi.io/api/v1/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Metodo	Url	Código	Respuesta
+GET	/blogs	200	Array
+GET	/blogs/:id	200	Blog
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+PAGINATION
+Agregar los siguientes parametros en la peticiones GET:
 
-## Learn More
+/blogs?page=1&limit=10
+/blogs?p=1&l=10
+Funcionalidad
+Listar los blogs paginados, 5 post por página
+Al dar click en la imagen del listado de blog, se tiene que mostrar el contenido del post individual
+Tech Stack
+ReactJS, VueJS, Vanilla Javascript
+CSS
+Bonus
+Que la maqueta sea responsiva
+Describir en un readme como ejecutar el proyecto
+Mostrar demo online del proyecto
+Escribir mensajes de commit claros y concisos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 3. Desarrollo de la prueba técnica
 
-### Code Splitting
+La prueba la lleve a cabo con React, durante el Bootcamp de Laboratoria desarrolle 1 proyecto con dicha tecnología, lo cual me permitió desarrollar el presente reto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Para la parte de maquetación use siguientes tecnologías:
 
-### Analyzing the Bundle Size
+CSS
+REACT JS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Para la parte de la funcionalidad usé el método GET con REACT para poder obtener y "pintar" la información compartida en el access point de la API
 
-### Making a Progressive Web App
+Base URL https://6328f6acd2c97d8c525f8f80.mockapi.io/api/v1/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+A continuación muestro el resultado final de la presente prueba
 
-### Advanced Configuration
+![Desarrollo1](src/assets/DesarrolloKoltin1.png)
+![Desarrollo2](src/assets/DesarrolloKoltin2.png)
+![Desarrollo3](src/assets/DesarrolloKoltin3.png)
+![Desarrollo4](src/assets/DesarrolloKoltin4.png)
+![Desarrollo5](src/assets/DesarrolloKoltin5.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Conclusión
+Agradezco la oportunidad por presentar dicha prueba, fue un proyecto lleno de aprendizajes, algunos detalles quedan pendientes, pero tengan por seguro que puse mi corazón en la presente prueba técnica.
 
-### Deployment
+Gracias.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Liliana Hdez Castelán
