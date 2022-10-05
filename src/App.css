@@ -3,7 +3,7 @@
 
 .App {
   display: grid;
-  grid-template-rows: 4% 25% 25% 25% 18%;
+  grid-template-rows: 4% 25% 21% 26% 21%;
   background-color: #E4E5E9;
   font-family: 'Square Peg', cursive;
   font-family: 'Ubuntu', sans-serif;

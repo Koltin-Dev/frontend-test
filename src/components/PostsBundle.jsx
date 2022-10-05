@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import getBlogs from "../helpers/api"
 import styles from "./PostsBundle.module.css";
@@ -13,26 +14,20 @@ function PostsBundle() {
   }, []);
 
   const [isOpen, setIsOpen] = useState(false);
-  const [blogID, setBlogID] = useState([]);
-  const [blogUnique, setBlogUnique] = useState([]);
+ const [blogUnique, setBlogUnique] = useState([]);
   
-  const togglePopup = (props) => {
-    
+  const togglePopup = (blogID) => {
      setIsOpen(!isOpen);
-     setBlogID(props)
-          
-        // eslint-disable-next-line react-hooks/rules-of-hooks
-    useEffect(() => {
-    getBlogs(
-     // eslint-disable-next-line no-template-curly-in-string
-     
-     `https://6328f6acd2c97d8c525f8f80.mockapi.io/api/v1/blogs/${blogID}`
-   ).then((json) => setBlogUnique(json));
-}, []);
-}
+     fetch(
+    (`https://6328f6acd2c97d8c525f8f80.mockapi.io/api/v1/blogs/${blogID}`),
+        )
+    .then((response) => response.json())
+    .then((data) => setBlogUnique(data.content) ) }
+  
+
 
   return (
-    <section className={styles.blogsContainer}>
+     <section className={styles.blogsContainer}>
       <div className={styles.titleContainer}>
         <h2>Feature Article — </h2>
         <h2>See All Article ›</h2>
@@ -41,17 +36,8 @@ function PostsBundle() {
       <section >
         <div className={styles.cardContainer}>
           {blogs.map((blog) => (
-             <section  className={styles.cardStyle} key={blogs.id}  onClick={() => togglePopup(blog.id)}>
-                {isOpen && <Popup 
-      content={ 
-       <><b>{blogUnique}</b>
-        <p>{blog.content}</p>
-        <button>Close</button>
-      </>        
-       }
-      handleClose={togglePopup}
-    />}
-            <>
+             <section  className={styles.cardStyle} key={blog.id} >
+              <>
               <img
                 className={styles.blogsImg}
                 src={blog.thumbnail}
@@ -59,13 +45,27 @@ function PostsBundle() {
               />
                <p  className={styles.blogsTitle}>{blog.title}</p>
 
-              <p className={styles.blogsName}>{blog.author.name}</p>
+               <p className={styles.blogsName}>{blog.author.name}</p>
               <img
                 className={styles.blogsAuthorImg}
                 src={blog.author.avatar}
                 alt="logo-icon"
-              />
+              /> 
               <p className={styles.blogsCreated}>{dateFormat(blog.createdAt,"mmm dd, yyyy")}</p> 
+              <button className={styles.blogMore} onClick={() => togglePopup(blog.id)} > + </button>
+                      
+             {isOpen && <Popup 
+      content={ 
+       <><b className={styles.blogContent}>{blogUnique}</b>
+        <br></br>
+        <br></br>
+        <br></br>
+     
+        <button className={styles.buttonClose} onClick={togglePopup}>Close</button>
+      </>        
+       }
+      handleClose={togglePopup}
+    />} 
             </>
             </section>
           ))}
